@@ -14,7 +14,7 @@ speed(10)
 def circles():
     while True:
         #to create circles
-        fd(10)      #change number to effect height radius of the circles.
+        fd(10)      #change number to effect the radius of the circles.
         left(5)
         #to change the direction for more fancy shapes than just a single circle.
         if abs(pos()) < 1:
